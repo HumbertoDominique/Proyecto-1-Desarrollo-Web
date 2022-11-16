@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-size: 62.5%; */
+}
+
+.fondo{
+    background-color: #607D8B;
+    font-family: 'Montserrat', sans-serif;
+}
+.encabezado{
+    background: linear-gradient(to bottom, #212121, #607D8B);
+    height: 100px;
+    position: top;
+}
+.encabezado__nav{
+    display: inline-block;
+}
+.encabezado__nav_ul{
+    display: inline-block;
+    margin-left: 500px;
+}
+.encabezado__nav_lista{
+    display: inline-block;
+    position: 0 0;
+    margin: 20px;
+    margin-top: 0px;
+    padding-left: 20px;
+}
+.encabezado__img{
+    display: inline-block;
+    margin: 15px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.encabezado__nav_lista_menu{
+    text-decoration: none;
+    display: inline-block;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+.encabezado__nav_lista_menu:hover{
+    color: #36dcf3;
+    text-decoration: underline;
+}
+.titulo__index{
+    background-image: url(./../assets/images/HOME.jpg);
+    background-position: 100% bottom;
+    background-size: cover;
+    height: 400px;
+    width: 95%;
+    margin: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 110px;
+    padding-left: 350px;
+    border-radius: 5px;
+}
+.titulo__index_img{
+    text-align: center;
+}
+.titulos{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./../assets/images/CONOCENOS.jpg);
+    background-position: 100%;
+    background-size: cover;
+    width: 95%;
+    height: 200px;
+    border-radius: 5px;
+    margin-left: 30px;
+    text-align: center;
+    padding: 80px;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.titulo__servicio{
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(./../assets/images/SERVICIOS.jpg);
+    background-position: bottom;
+    background-size: cover;
+    width: 95%;
+    height: 200px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.titulo__eventos{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(./../assets/images/EVENTOS.jpg);
+    background-position: 100% center;
+    background-size: cover;
+    width: 95%;
+    height: 200px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.titulo__contactanos{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./../assets/images/CONTÁCTANOS.jpg);
+    background-position: 100% center;
+    background-size: cover;
+    width: 95%;
+    height: 200px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.cuerpo{
+    background-color: #607D8B;
+}
+.cuerpo__index_1{
+    background-color: #607D8B;
+    text-align: center;
+    height: 100px;
+    padding-top: 30px;
+    font-style: italic;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+}
+.hipervinculo_1{
+    color: #CFD8DC;
+    text-decoration: none;
+    text-align: justify;
+}
+.hipervinculo_1:hover{
+    color: #36dcf3;
+    text-decoration: underline;
+}
+.hipervinculo_2{
+    color: #455A64;
+    text-decoration: none;
+    text-align: justify;
+}
+.hipervinculo_2:hover{
+    color: #2196F3;
+    text-decoration: underline;
+}
+.carousel{
+    background-color: #BDBDBD;
+    padding-left: 500px;
+    width: 95%;
+    margin: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.cajas__index_1{
+    background-color: #607D8B;
+    height: fit-content;
+    color: #212121;
+    text-align: center;
+    margin-top: 30px;
+}
+.cajas__titulos{
+    font-weight: 900;
+    color: #455A64;
+}
+.caja__index_2{
+    background-color: #CFD8DC;
+    width: 350px;
+    height: 350px;
+    display:block;
+    float: left;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.cuerpo__conocenos_1{
+    background-color: #455A64;
+    color: #FFFFFF;
+    width: 500px;
+    height: 400px;
+    float: left;
+    text-align: justify;
+    padding: 50px;
+    font-size: 18px;
+    margin-left: 130px;
+    margin-top: 25px;
+    border-radius: 5px 0 0 5px;
+}
+.cuerpo__conocenos_img{
+    background-color: #CFD8DC;
+    float: left;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 25px;
+    border-radius: 0 5px 5px 0;
+}
+.cuerpo__conocenos_2{
+    width: 95%;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 0px;
+    padding: 10px;
+    text-align: center;
+    background-color: #CFD8DC;
+    color: #212121;
+    display: block;
+    position: bottom;
+    border-radius: 5px;
+}
+.cuerpo__conocenos_3{
+    width: 90%;
+    height: 150px;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
+.cuerpo__conocenos_4{
+    background-color: #455A64;
+    color: #FFFFFF;
+    float: right;
+    width: 500px;
+    height: 300px;
+    margin-right: 130px;
+    text-align: justify;
+    padding: 50px;
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 0 5px 5px 0;
+}
+.cuerpo__conocenos_mapa{
+    background-color: #FFFFFF;
+    float: right;
+    width: 500px;
+    height: 300px;
+    margin-right: 0px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+}
+.cuerpo__servicios_1{
+    width: 90%;
+    height: 100px;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.cuerpo__servicios_2{
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.10), rgba(255, 255, 255, 0.80)), url(./../assets/images/nubes_servicios.jpg);
+    background-position: 100% top;
+    background-size: cover;
+    width: 85%;
+    height: 380px;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+.cuerpo__servicios_texto{
+    width: 100%;
+    height: 150px;
+    border-radius: 5px 5px 0 0;
+    text-align: justify;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+.cuerpo__servicios_lista{
+    width: 50%;
+    height: 230px;
+    border-radius: 0 0 0 5px;
+    padding: 10px;
+    padding-left: 30px;
+    font-size: 18px;
+    color: #212121;
+    font-weight: 500;
+}
+.servicios__lista{
+    margin-top: 20px;
+    color: #212121;
+}
+.cuerpo__servicios_3{
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.10), rgba(255, 255, 255, 0.80)), url(./../assets/images/nubes_servicios.jpg);
+    background-position: 100% bottom;
+    background-size: cover;
+    width: 85%;
+    height: 380px;
+    margin-left: 100px;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding-top: 5px;
+}
+.cuerpo__servicios_4{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    width: 90%;
+    margin: 30px 60px 30px;
+}
+.cuerpo__eventos_1{
+    width: 90%;
+    height: 100px;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 60px;
+    text-align: justify;
+}
+.caja__eventos{
+    background-color: #CFD8DC;
+    width: 90%;
+    height: 200px;
+    margin-left: 55px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #607D8B;
+}
+.caja__eventos_texto_1{
+    float: left;
+    width: 70%;
+    height:120px;
+    background-color: #BDBDBD;
+    color: #212121;
+    margin: 30px;
+    border-radius: 5px;
+}
+.caja__eventos_img_1{
+    float: left;
+    margin: 30px;
+    background-color: #2196F3;
+    width: 150px;
+    height: 150px;
+    padding: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.caja__eventos_texto_2{
+    float: right;
+    width: 70%;
+    height:120px;
+    background-color: #BDBDBD;
+    color: #212121;
+    margin: 40px;
+    border-radius: 5px;
+}
+.caja__eventos_img_2{
+    float: right;
+    margin: 30px;
+    background-color: #2196F3;
+    width: 150px;
+    height: 150px;
+    padding: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.cuerpo__eventos_2{
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.cuerpo__contactanos_1{
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    height: 40px;
+    margin-top: 30px;
+}
+.cuerpo__contactanos_img{
+    width: 350px;
+    height: 350px;
+    background-color: #BDBDBD;
+    padding: 40px;
+    margin-top: 50px;
+    margin-left: 250px;
+    float: left;
+    border-radius: 5px 0 0 5px;
+}
+.formulario__general{
+    width: 350px;
+    height: 350px;
+    background-color: #FFFFFF;
+    float: left;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 0 5px 5px 0;
+}
+.formulario__datos{
+    border-color: #455A64;
+    border-style: solid;
+    border-width: 1px;
+    width: 90%;
+    height: 30px;
+    margin: 5px;
+    border-radius: 2px;
+    background-color: #CFD8DC;
+    text-align: center;
+}
+.formulario__selec{
+    margin: 5px;
+    width: 5%;
+}
+.formulario__campo{
+    width: 90%;
+    height: 80px;
+    text-align: center;
+    white-space: initial;
+    margin-top: 5px;
+    background-color: #CFD8DC;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.formulario__boton{
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;   
+    border-width: 1px; 
+}
+#boton__enviar{
+    background-color: #CFD8DC;
+}
+.cuerpo__contactanos_2{
+    color: #FFFFFF;
+    font-size: 25px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.pie{
+    background-color: #455A64;
+    background: linear-gradient(to top, #212121, #607D8B);
+}
+.pie__links {
+    padding-left: 320px;
+    margin-top: 15px;
+}
+.pie__logos{
+    text-align: center;
+    margin-top: 20px;
+}
+.pie__lista{
+    display: inline;
+    margin: 15px;
+    padding-inline: 15px;
+}
+.pie__lista_menu{
+    text-decoration: none;
+    color: #CFD8DC;
+}
+.pie__lista_menu:hover{
+    color: #36dcf3;
+    text-decoration: underline;
+}
+.pie__iconos{
+    margin: 5px;
+}
+.pie__texto{
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+    height: 10px;
+    padding: 30px;
+    padding-bottom: 50px;
+}
+.relleno_0{
+    width: 100%;
+    height: 400px;
+}
+.relleno_1{
+    width: 100%;
+    height: 450px;
+}
+.relleno_2{
+    width: 100%;
+    height: 350px;
+}
+.relleno_4{
+    width: 100%;
+    height: 40px;
+}
+.relleno_5{
+    width: 100%;
+    height: 450px;
+}
