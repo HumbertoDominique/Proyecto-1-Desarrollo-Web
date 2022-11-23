@@ -6,36 +6,6 @@
     box-sizing: border-box;
     /* font-size: 62.5%; */
 }
-
-.fondo{
-    background-color: #607D8B;
-    font-family: 'Montserrat', sans-serif;
-}
-.encabezado{
-    background: linear-gradient(to bottom, #212121, #607D8B);
-    height: 100px;
-    position: top;
-}
-.encabezado__nav{
-    display: inline-block;
-}
-.encabezado__nav_ul{
-    display: inline-block;
-    margin-left: 500px;
-}
-.encabezado__nav_lista{
-    display: inline-block;
-    position: 0 0;
-    margin: 20px;
-    margin-top: 0px;
-    padding-left: 20px;
-}
-.encabezado__img{
-    display: inline-block;
-    margin: 15px;
-    margin-top: 25px;
-    margin-left: 20px;
-}
 .encabezado__nav_lista_menu{
     text-decoration: none;
     display: inline-block;
@@ -44,7 +14,6 @@
     font-size: 16px;
 }
 .encabezado__nav_lista_menu:hover{
-    color: #36dcf3;
     text-decoration: underline;
 }
 .titulo__index{
@@ -105,6 +74,7 @@
 }
 .cuerpo{
     background-color: #607D8B;
+
 }
 .cuerpo__index_1{
     background-color: #607D8B;
@@ -149,6 +119,7 @@
     color: #212121;
     text-align: center;
     margin-top: 30px;
+    font-size: 1rem;
 }
 .cajas__titulos{
     font-weight: 900;
@@ -157,7 +128,7 @@
 .caja__index_2{
     background-color: #CFD8DC;
     width: 350px;
-    height: 350px;
+    height: 370px;
     display:block;
     float: left;
     margin-left: 50px;
@@ -232,128 +203,9 @@
     padding: 5px;
     border-radius: 5px 0 0 5px;
 }
-.cuerpo__servicios_1{
-    width: 90%;
-    height: 100px;
-    color: #FFFFFF;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 30px;
-    margin-left: 50px;
-}
-.cuerpo__servicios_2{
-    background: linear-gradient(to left, rgba(255, 255, 255, 0.10), rgba(255, 255, 255, 0.80)), url(./../assets/images/nubes_servicios.jpg);
-    background-position: 100% top;
-    background-size: cover;
-    width: 85%;
-    height: 380px;
-    margin-left: 100px;
-    border-radius: 5px;
-}
-.cuerpo__servicios_texto{
-    width: 100%;
-    height: 150px;
-    border-radius: 5px 5px 0 0;
-    text-align: justify;
-    font-size: 18px;
-    padding-left: 10px;
-    padding-top: 15px;
-    padding-right: 20px;
-}
-.cuerpo__servicios_lista{
-    width: 50%;
-    height: 230px;
-    border-radius: 0 0 0 5px;
-    padding: 10px;
-    padding-left: 30px;
-    font-size: 18px;
-    color: #212121;
-    font-weight: 500;
-}
 .servicios__lista{
     margin-top: 20px;
     color: #212121;
-}
-.cuerpo__servicios_3{
-    background: linear-gradient(to left, rgba(255, 255, 255, 0.10), rgba(255, 255, 255, 0.80)), url(./../assets/images/nubes_servicios.jpg);
-    background-position: 100% bottom;
-    background-size: cover;
-    width: 85%;
-    height: 380px;
-    margin-left: 100px;
-    border-radius: 5px;
-    margin-top: 30px;
-    padding-top: 5px;
-}
-.cuerpo__servicios_4{
-    text-align: center;
-    color: #FFFFFF;
-    font-size: 18px;
-    width: 90%;
-    margin: 30px 60px 30px;
-}
-.cuerpo__eventos_1{
-    width: 90%;
-    height: 100px;
-    color: #FFFFFF;
-    font-size: 18px;
-    margin-top: 40px;
-    margin-left: 60px;
-    text-align: justify;
-}
-.caja__eventos{
-    background-color: #CFD8DC;
-    width: 90%;
-    height: 200px;
-    margin-left: 55px;
-    border-radius: 5px;
-    border-style: solid;
-    border-color: #607D8B;
-}
-.caja__eventos_texto_1{
-    float: left;
-    width: 70%;
-    height:120px;
-    background-color: #BDBDBD;
-    color: #212121;
-    margin: 30px;
-    border-radius: 5px;
-}
-.caja__eventos_img_1{
-    float: left;
-    margin: 30px;
-    background-color: #2196F3;
-    width: 150px;
-    height: 150px;
-    padding: 40px;
-    border-radius: 5px;
-    margin-top: 20px;
-}
-.caja__eventos_texto_2{
-    float: right;
-    width: 70%;
-    height:120px;
-    background-color: #BDBDBD;
-    color: #212121;
-    margin: 40px;
-    border-radius: 5px;
-}
-.caja__eventos_img_2{
-    float: right;
-    margin: 30px;
-    background-color: #2196F3;
-    width: 150px;
-    height: 150px;
-    padding: 40px;
-    border-radius: 5px;
-    margin-top: 20px;
-}
-.cuerpo__eventos_2{
-    color: #FFFFFF;
-    font-size: 18px;
-    text-align: center;
-    height: 40px;
-    margin-bottom: 20px;
 }
 .cuerpo__contactanos_1{
     color: #FFFFFF;
@@ -364,7 +216,7 @@
 }
 .cuerpo__contactanos_img{
     width: 350px;
-    height: 350px;
+    height: 380px;
     background-color: #BDBDBD;
     padding: 40px;
     margin-top: 50px;
@@ -374,7 +226,7 @@
 }
 .formulario__general{
     width: 350px;
-    height: 350px;
+    height: 380px;
     background-color: #FFFFFF;
     float: left;
     margin-top: 50px;
@@ -426,18 +278,6 @@
     text-align: center;
     margin-bottom: 30px;
 }
-.pie{
-    background-color: #455A64;
-    background: linear-gradient(to top, #212121, #607D8B);
-}
-.pie__links {
-    padding-left: 320px;
-    margin-top: 15px;
-}
-.pie__logos{
-    text-align: center;
-    margin-top: 20px;
-}
 .pie__lista{
     display: inline;
     margin: 15px;
@@ -451,17 +291,6 @@
     color: #36dcf3;
     text-decoration: underline;
 }
-.pie__iconos{
-    margin: 5px;
-}
-.pie__texto{
-    text-align: center;
-    color: #FFFFFF;
-    width: 100%;
-    height: 10px;
-    padding: 30px;
-    padding-bottom: 50px;
-}
 .relleno_0{
     width: 100%;
     height: 400px;
@@ -474,11 +303,92 @@
     width: 100%;
     height: 350px;
 }
-.relleno_4{
-    width: 100%;
-    height: 40px;
+.navegadorHeader{
+    background: linear-gradient(to bottom, #212121, #607D8B);
+    color: #CFD8DC;
 }
-.relleno_5{
-    width: 100%;
-    height: 450px;
+.fondo{
+    background-color: #607D8B;
+    font-family: 'Montserrat', sans-serif;
+}
+.tituloServicio{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.350), rgba(0, 0, 0, 0.35)), url(./../assets/images/SERVICIOS.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 15vh;
+    color: #FFFFFF;
+}
+.tituloEventos{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(./../assets/images/EVENTOS.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 15vh;
+    color: #FFFFFF;
+}
+.activo{
+    text-decoration: underline;
+}
+.estiloServicio1{
+    background-color: #CFD8DC;
+    color: #212121;
+}
+.textoIntro_1{
+    color: #FFFFFF;   
+}
+.titulos_bs{
+    height: 15vh;
+}
+.fondoAcordion{
+    background-color: #455A64;
+    color: #ffffff;
+    font-size: medium;
+    font-weight: 400;
+    transition: 1s;
+}
+.fondoAcordion:hover{
+    background-color: #FFFFFF;
+    color: #212121;
+}
+.fondoAcordion2A{
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.80)), url(./../assets/images/nubes_servicios.jpg);
+    background-position: 100% top;
+    background-size: cover;
+    font-weight: 500;
+}
+.fondoAcordion2B{
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.80)), url(./../assets/images/nubes_servicios.jpg);
+    background-position: 100% bottom;
+    background-size: cover;
+    font-weight: 500;
+}
+.bordeAcordion{
+    border-color: #455A64;
+}
+.footer{
+    background: linear-gradient(to top, #212121, #607D8B);
+}
+.linkFooter{
+    display: none
+}
+.textoFooter{
+    font-weight: 400;
+    color: #CFD8DC;
+}
+.servicios_1{
+    color: #ffffff;
+}
+.cuerpoCards{
+    background-color: #CFD8DC;
+}
+.cuerpoCards:hover{
+    background-color: #FFFFFF;
+    transition: 2s;
+}
+@media (min-width: 768px){
+.linkFooter{
+    display: inline-block;
+}
+.titulos_bs{
+    height: 35vh;
+}
 }

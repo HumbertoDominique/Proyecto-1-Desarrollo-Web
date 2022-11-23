@@ -1,95 +1,155 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DREAMER ENTERPRISE</title>
-    <link rel="shortcut icon" href="./../assets/images/LOGO_ICON.png" type="image/png">
-    <link rel="stylesheet" href="./../css/styles.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DREAMER ENTERPRISE</title>
+        <link rel="shortcut icon" href="./../assets/images/LOGO_ICON.png" type="image/png">
+        <link rel="stylesheet" href="./../css/bootstrap.min.css">
+        <link rel="stylesheet" href="./../css/styles.css">
+    </head>
     <body class="fondo">
         <header id="headerServicios">
-            <div class="encabezado">
-                <a class="encabezado__img"  href="./../index.html#headerIndex"><img src="./../assets/images/icono_logo_blanco.svg" alt="logo" width="35"></a>
-                <nav class="encabezado__nav">
-                    <ul class="encabezado__nav_ul">
-                        <li class="encabezado__nav_lista"><a class="encabezado__nav_lista_menu" href="./../index.html">Inicio</a></li>
-                        <li class="encabezado__nav_lista"><a class="encabezado__nav_lista_menu" href="./conocenos.html">Conócenos</a></li>
-                        <li class="encabezado__nav_lista"><a class="encabezado__nav_lista_menu" href="#">Servicios</a></li>
-                        <li class="encabezado__nav_lista"><a class="encabezado__nav_lista_menu" href="./eventos.html">Eventos</a></li>
-                        <li class="encabezado__nav_lista"><a class="encabezado__nav_lista_menu" href="./contactanos.html">Contáctanos</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="titulos titulo__servicio">
-                <h1 id="t1">SERVICIOS</h1>
-            </div>
+            <nav class="navbar navbar-expand-lg navbar-dark navegadorHeader">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./../index.html#headerIndex"><img src="./../assets/images/icono_logo_blanco.svg" alt="logo" width="35"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav w-100 justify-content-around align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link encabezado__nav_lista_menu" aria-current="page" href="./../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link encabezado__nav_lista_menu" href="./conocenos.html">Conócenos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active activo" href="#">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link encabezado__nav_lista_menu" href="./eventos.html">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link encabezado__nav_lista_menu" href="./contactanos.html">Contáctanos</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+                <div class="container">
+                    <div class="row">
+                        <div class="fs-1 col-12 rounded tituloServicio mt-3 mb-3 titulos_bs d-flex align-items-center justify-content-center">
+                                <h1>SERVICIOS</h1>
+                        </div>
+                    </div>
+                </div>
         </header>
-        <main class="cuerpo">
-            <div class="cuerpo__servicios_1">
-                <p>En Dreamer Enterprise® clasificamos los sueños en dos categorías: Recuerdos propios o Temáticas inducidas. Dependiendo de lo que tengas intención de soñar, podrás configurar tu propia experiencia.</p>
-            </div>
-            <section>
-                <div class="cuerpo__servicios_2">
-                    <div class="cuerpo__servicios_texto">
-                        <h2>RECUERDOS PROPIOS</h2>
+        <main>
+            <div class="container mt-4">
+                <div class="row">
+                    <div class="col-12 fs-5 text-center textoIntro_1">
+                        <p>En Dreamer Enterprise® clasificamos los sueños en dos categorías: Recuerdos propios o Temáticas inducidas. 
                         <br>
-                        <p>Explora el interior de tu mente, revive momentos felices o interactúa con los recuerdos que tengas de un ser querido. La categoría de recuerdos propios te permite explorar cada rincon de lo que ha vivido tu mente a través de las siguientes temáticas:</p>
+                        Dependiendo de lo que tengas intención de soñar, podrás configurar tu propia experiencia.</p>
                     </div>
-                    <div class="cuerpo__servicios_lista">
+                </div>
+            </div>
+            <div class="container mt-3">
+                <div class="accordion acordionPrueba" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item border-2 bordeAcordion">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            RECUERDOS PROPIOS
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body fondoAcordion text-center">
+                          Explora el interior de tu mente, revive momentos felices o interactúa con los recuerdos que tengas de un ser querido. La categoría de recuerdos propios te permite explorar cada rincón de lo que ha vivido tu mente a través de las siguientes temáticas:
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item bg-light bordeAcordion">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                          Categorías de sueños inspirados en Recuerdos Propios:
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body fondoAcordion2A">
+                            <ul>
+                                <li class="servicios__lista">Seres queridos</li>
+                                <li class="servicios__lista">Momentos vividos</li>
+                                <li class="servicios__lista">Anhelos y deseos personales</li>
+                                <li class="servicios__lista">Explorar inseguridades y miedos</li>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-3">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item border-2 bordeAcordion">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            TEMÁTICAS INDUCIDAS
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body fondoAcordion text-center">
+                          Si te preguntas como se sentiría ser un soldado en la guerra fría, batallar junto a tu héroe favorito o explorar que semi-diós de la mitología podrías ser, la categoría de temática inducida es para ti, donde solo tu imaginación es el límite:
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            Categorías de sueños inspiradas en Temáticas Inducidas:
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body fondoAcordion2B">
+                            <ul>
+                                <li class="servicios__lista">Mitología e historia</li>
+                                <li class="servicios__lista">Super heroes</li>
+                                <li class="servicios__lista">Series o Sagas del cine y tv</li>
+                                <li class="servicios__lista">Festividades</li>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid fs-5 mt-3 text-center servicios_1">
+                <p>Adicionalmente puedes acceder a los diferentes <a class="hipervinculo_1" href="./eventos.html">EVENTOS</a> que Dreamer Enterprise® tiene para ti, 
+                <br> 
+                para que explores las bases del mundo de los sueños.</p>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container-fluid bottom-100 border-top border-white pt-3">
+                <div class="row">
+                    <div class="col-12 text-center linkFooter">
                         <ul>
-                            <li class="servicios__lista">Seres queridos</li>
-                            <li class="servicios__lista">Momentos vividos</li>
-                            <li class="servicios__lista">Anhelos y deseos personales</li>
-                            <li class="servicios__lista">Explorar inseguridades y miedos</li>
+                            <li class="pie__lista"><a class="pie__lista_menu" href="./conocenos.html">Conócenos</a></li>
+                            <li class="pie__lista"><a class="pie__lista_menu" href="#headerServicios">Servicios</a></li>
+                            <li class="pie__lista"><a class="pie__lista_menu" href="./eventos.html">Eventos</a></li>
+                            <li class="pie__lista"><a class="pie__lista_menu" href="./contactanos.html">Contáctanos</a></li>
                         </ul>
                     </div>
-                </div>
-            </section>
-            <section>
-                <div class="cuerpo__servicios_3">
-                    <div class="cuerpo__servicios_texto">
-                        <h2>TEMÁTICAS INDUCIDAS</h2>
-                        <br>
-                        <p>Si te preguntas como se sentiría ser un soldado en la guerra fría, batallar junto a tu héroe favorito o explorar que semi-diós de la mitología podrías ser, la categoría de temática inducida es para ti:</p>
+                    <div class="col-12 text-center">
+                            <a href="https://es-la.facebook.com/" target="_blank"><img src="./../assets/images/icono facebook.png" alt="icono facebook" width="20"></a>
+                            <a href="https://www.instagram.com/" target="_blank"><img src="./../assets/images/icono instagram.png" alt="icono instagram" width="20"></a>
+                            <a href="./../index.html#headerIndex"><img src="./../assets/images/LOGO-INDEX - blanco.svg" alt="logo" width="80"></a>
+                            <a href="https://www.whatsapp.com/" target="_blank"><img src="./../assets/images/icono whatsapp.png" alt="icono whatsapp" width="20"></a>
+                            <a href="https://twitter.com/" target="_blank"><img src="./../assets/images/icono twitter.png" alt="icono twitter" width="20"></a>
                     </div>
-                    <div class="cuerpo__servicios_lista">
-                        <ul>
-                            <li class="servicios__lista">Mitología e historia</li>
-                            <li class="servicios__lista">Super heroes</li>
-                            <li class="servicios__lista">Series o Sagas del cine y tv</li>
-                            <li class="servicios__lista">Festividades</li>
-                        </ul>
+                    <div class="col-12 text-center textoFooter mt-3">
+                        <p>Todos los derechos reservados®.</p>
                     </div>
                 </div>
-            </section>
-            <section>
-                <div class="cuerpo__servicios_4">
-                    <p>Adicionalmente puedes acceder a los diferentes <a class="hipervinculo_1" href="./eventos.html">EVENTOS</a> que Dreamer Enterprise® tiene para ti, para que explores las bases del mundo de los sueños.</p>
-                </div>
-            </section>
-        </main>     
-        <footer class="pie">
-            <hr>
-            <div class="pie__links">
-                <ul>
-                    <li class="pie__lista"><a class="pie__lista_menu" href="./conocenos.html">Conócenos</a></li>
-                    <li class="pie__lista"><a class="pie__lista_menu" href="#headerServicios">Servicios</a></li>
-                    <li class="pie__lista"><a class="pie__lista_menu" href="./eventos.html">Eventos</a></li>
-                    <li class="pie__lista"><a class="pie__lista_menu" href="./contactanos.html">Contáctanos</a></li>
-                </ul>
             </div>
-            <div class="pie__logos">
-                <a href="https://es-la.facebook.com/" target="_blank"><img src="./../assets/images/icono facebook.png" alt="icono facebook" width="20"></a>
-                <a href="https://www.instagram.com/" target="_blank"><img src="./../assets/images/icono instagram.png" alt="icono instagram" width="20"></a>
-                <a href="./../index.html#headerIndex"><img src="./../assets/images/LOGO-INDEX - blanco.svg" alt="logo" width="80"></a>
-                <a href="https://www.whatsapp.com/" target="_blank"><img src="./../assets/images/icono whatsapp.png" alt="icono whatsapp" width="20"></a>
-                <a href="https://twitter.com/" target="_blank"><img src="./../assets/images/icono twitter.png" alt="icono twitter" width="20"></a>
-            </div>
-            <div>
-                <p class="pie__texto">Todos los derechos reservados®.</p>
-            </div>
-        </footer>
+        </footer>  
+        <script src="./../js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
