@@ -20,14 +20,8 @@
     background-image: url(./../assets/images/HOME.jpg);
     background-position: 100% bottom;
     background-size: cover;
-    height: 400px;
+    height: 40rem;
     width: 95%;
-    margin: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-top: 110px;
-    padding-left: 350px;
-    border-radius: 5px;
 }
 .titulo__index_img{
     text-align: center;
@@ -36,13 +30,6 @@
     background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./../assets/images/CONOCENOS.jpg);
     background-position: 100%;
     background-size: cover;
-    width: 95%;
-    height: 200px;
-    border-radius: 5px;
-    margin-left: 30px;
-    text-align: center;
-    padding: 80px;
-    font-size: 25px;
     color: #FFFFFF;
 }
 .titulo__servicio{
@@ -70,21 +57,34 @@
     width: 95%;
     height: 200px;
     border-radius: 5px;
-    margin-left: 30px;
 }
 .cuerpo{
     background-color: #607D8B;
-
 }
 .cuerpo__index_1{
     background-color: #607D8B;
-    text-align: center;
-    height: 100px;
-    padding-top: 30px;
     font-style: italic;
     color: #FFFFFF;
-    font-weight: 500;
-    font-size: 20px;
+    font-size: 1.5rem;
+}
+.tarjeta{
+    width: 22rem;
+    height: 24rem;
+}
+.textoCard2{
+    font-size: 0.9rem;
+}
+
+.imagen_card{
+    width: 10rem;
+    height: 10rem;
+}
+.carrusel{
+    height: 25rem;
+    width: 100%;
+}
+.imgCarrusel{
+    height: 25rem;
 }
 .hipervinculo_1{
     color: #CFD8DC;
@@ -104,15 +104,6 @@
     color: #2196F3;
     text-decoration: underline;
 }
-.carousel{
-    background-color: #BDBDBD;
-    padding-left: 500px;
-    width: 95%;
-    margin: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-}
 .cajas__index_1{
     background-color: #607D8B;
     height: fit-content;
@@ -122,8 +113,12 @@
     font-size: 1rem;
 }
 .cajas__titulos{
-    font-weight: 900;
     color: #455A64;
+}
+.botones{
+    background-color: #36dcf3;
+    color: #FFFFFF;
+    font-size: 1rem;
 }
 .caja__index_2{
     background-color: #CFD8DC;
@@ -134,74 +129,43 @@
     margin-left: 50px;
     border-radius: 5px;
 }
-.cuerpo__conocenos_1{
-    background-color: #455A64;
-    color: #FFFFFF;
-    width: 500px;
-    height: 400px;
-    float: left;
-    text-align: justify;
-    padding: 50px;
-    font-size: 18px;
-    margin-left: 130px;
-    margin-top: 25px;
-    border-radius: 5px 0 0 5px;
-}
 .cuerpo__conocenos_img{
     background-color: #CFD8DC;
-    float: left;
-    width: 500px;
-    height: 400px;
-    text-align: center;
-    padding-top: 50px;
-    margin-top: 25px;
-    border-radius: 0 5px 5px 0;
+    width: 300px;
+    height: 300px;
+}
+.prueba_1{
+    background-color: #CFD8DC;
+}
+.cuerpo__conocenos_1{
+    text-align: justify;
+    background-color: #455A64;
+    color: #FFFFFF;
+    font-size: 1rem;
 }
 .cuerpo__conocenos_2{
-    width: 95%;
-    height: 50px;
-    margin-left: 30px;
-    margin-top: 0px;
-    padding: 10px;
-    text-align: center;
     background-color: #CFD8DC;
     color: #212121;
-    display: block;
-    position: bottom;
-    border-radius: 5px;
+    height: 4rem;
 }
 .cuerpo__conocenos_3{
-    width: 90%;
-    height: 150px;
-    font-size: 18px;
+    font-size: 1.2rem;
     color: #FFFFFF;
-    text-align: center;
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-bottom: 0px;
 }
 .cuerpo__conocenos_4{
     background-color: #455A64;
     color: #FFFFFF;
-    float: right;
-    width: 500px;
-    height: 300px;
-    margin-right: 130px;
     text-align: justify;
-    padding: 50px;
-    margin-left: 0px;
-    margin-top: 0px;
-    border-radius: 0 5px 5px 0;
+    border-radius: 5px 5px 0 0;
 }
 .cuerpo__conocenos_mapa{
-    background-color: #FFFFFF;
-    float: right;
-    width: 500px;
-    height: 300px;
-    margin-right: 0px;
-    text-align: center;
-    padding: 5px;
-    border-radius: 5px 0 0 5px;
+    border-color: #FFFFFF;
+    background-color: #CFD8DC;
+    border-radius: 0 0 5px 5px;
+}
+.cuerpo__container_sub{
+    height: 60vh;
+    width: 80vw;
 }
 .servicios__lista{
     margin-top: 20px;
@@ -209,55 +173,20 @@
 }
 .cuerpo__contactanos_1{
     color: #FFFFFF;
-    font-size: 20px;
-    text-align: center;
-    height: 40px;
-    margin-top: 30px;
+    font-size: 1.5rem;
 }
 .cuerpo__contactanos_img{
-    width: 350px;
-    height: 380px;
+    width: 25rem;
+    height: 24rem;
     background-color: #BDBDBD;
-    padding: 40px;
-    margin-top: 50px;
-    margin-left: 250px;
-    float: left;
-    border-radius: 5px 0 0 5px;
+    border-radius: 0 0 5px 5px;
 }
 .formulario__general{
-    width: 350px;
-    height: 380px;
-    background-color: #FFFFFF;
-    float: left;
-    margin-top: 50px;
-    text-align: center;
-    padding-top: 10px;
-    border-radius: 0 5px 5px 0;
-}
-.formulario__datos{
-    border-color: #455A64;
-    border-style: solid;
-    border-width: 1px;
-    width: 90%;
-    height: 30px;
-    margin: 5px;
-    border-radius: 2px;
-    background-color: #CFD8DC;
-    text-align: center;
-}
-.formulario__selec{
-    margin: 5px;
-    width: 5%;
-}
-.formulario__campo{
-    width: 90%;
-    height: 80px;
-    text-align: center;
-    white-space: initial;
-    margin-top: 5px;
-    background-color: #CFD8DC;
-    border-radius: 5px;
-    border-width: 1px;
+    width: 25rem;
+    height: 24rem;
+    background-color: #BDBDBD;
+    border-radius: 5px 5px 0 0;
+    font-size: 0.9rem;
 }
 .formulario__boton{
     margin-top: 10px;
@@ -272,11 +201,7 @@
 }
 .cuerpo__contactanos_2{
     color: #FFFFFF;
-    font-size: 25px;
-    width: 100%;
-    height: 50px;
-    text-align: center;
-    margin-bottom: 30px;
+    font-size: 2rem;
 }
 .pie__lista{
     display: inline;
@@ -290,18 +215,6 @@
 .pie__lista_menu:hover{
     color: #36dcf3;
     text-decoration: underline;
-}
-.relleno_0{
-    width: 100%;
-    height: 400px;
-}
-.relleno_1{
-    width: 100%;
-    height: 450px;
-}
-.relleno_2{
-    width: 100%;
-    height: 350px;
 }
 .navegadorHeader{
     background: linear-gradient(to bottom, #212121, #607D8B);
@@ -384,11 +297,38 @@
     background-color: #FFFFFF;
     transition: 2s;
 }
+.conocenos__container1{
+    background-color: #455A64;
+    color: #FFFFFF;
+    text-align: justify;
+    font-size: 1.3rem;
+    /*
+    font-size: 18px;
+    width: 500px;
+    height: 400px;
+    */
+}
 @media (min-width: 768px){
 .linkFooter{
     display: inline-block;
 }
 .titulos_bs{
     height: 35vh;
+}
+.cuerpo__conocenos_mapa{
+    order: 1;
+    border-radius: 5px 0 0 5px;
+}
+.cuerpo__conocenos_4{
+    order: 2;
+    border-radius: 0px 5px 5px 0px;
+}
+.cuerpo__contactanos_img{
+    order: 1;
+    border-radius: 5px 0 0 5px;
+}
+.formulario__general{
+    order: 2;
+    border-radius: 0 5px 5px 0;
 }
 }
