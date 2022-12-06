@@ -1,0 +1,55 @@
+.conocenos__main{
+    .conocenos__main_d1{
+        @include justify_align(center, center);
+        .conocenos__main_d1_d{
+            .conocenos__main_d1_d_bloque1{
+                text-align: justify;
+                background-color: $colorDestacado;
+                color: $colorTextoPrincipal;
+                font-size: 1rem;
+            }
+            .conocenos__main_d1_d_d{
+                .conocenos__main_d1_d_d_img{
+                    background: url(./../assets/images/img_Dreambot.png);
+                    width: 100%;
+                    height: 100%;
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 0 5px 5px 0;
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    .conocenos__main_d2{
+        background-color: $colorBoton;
+        color: $colorTitulos;
+        height: 4rem;
+        @include justify_align(center, center);
+        transition: 0.5s;
+        &:hover{
+            background-color: $colorHover;
+        }
+    }
+    .conocenos__main_d3{
+        font-size: 1.2rem;
+    }
+    .conocenos__main_d4{
+        .conocenos__main_d4_d{
+            height: 55vh;
+            width: 80vw;
+            .conocenos__main_d4_d_texto{
+                background-color: $colorDestacado;
+                text-align: justify;
+                border-radius: 5px 5px 0 0;
+                @include justify_align(center, center);
+                color: $colorTextoPrincipal;
+            }
+            .conocenos__main_d4_d_mapa{
+                border-color: $colorDestacado;
+                background-color: $colorContraste;
+                border-radius: 0 0 5px 5px;
+            }
+        }
+    }
+}

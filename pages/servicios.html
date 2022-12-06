@@ -7,134 +7,98 @@
         <title>DREAMER ENTERPRISE</title>
         <link rel="shortcut icon" href="./../assets/images/LOGO_ICON.png" type="image/png">
         <link rel="stylesheet" href="./../css/bootstrap.min.css">
-        <link rel="stylesheet" href="./../css/styles.css">
+        <link rel="stylesheet" href="./../css/estilos.css">
     </head>
-    <body class="fondo"> <!--Programé el logo para que redirija al Index desde todas las páginas-->
-        <header id="headerServicios">
-            <nav class="navbar navbar-expand-lg navbar-dark navegadorHeader">
-                <div class="container-fluid">
+    <body class="body">
+        <header class="header" id="headerServicios">
+            <nav class="header__n navbar navbar-expand-lg navbar-dark">
+                <div class="header__n_d container-fluid">
                     <a class="navbar-brand" href="./../index.html#headerIndex"><img src="./../assets/images/icono_logo_blanco.svg" alt="logo" width="35"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class= "navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav w-100 justify-content-around align-items-center">
-                        <li class="nav-item">
-                            <a class="nav-link encabezado__nav_lista_menu" aria-current="page" href="./../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link encabezado__nav_lista_menu" href="./conocenos.html">Conócenos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active activo" href="#">Servicios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link encabezado__nav_lista_menu" href="./eventos.html">Eventos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link encabezado__nav_lista_menu" href="./contactanos.html">Contáctanos</a>
-                        </li>
+                    <div class="header__n_d_d collapse navbar-collapse" id="navbarNav">
+                        <ul class="header__n_d_d_u navbar-nav w-100">
+                            <li class="header__n_d_d_u_l_2 nav-item">
+                                <a class="header__n_d_d_u_l_ancla nav-link" aria-current="page" href="./../index.html">Inicio</a>
+                            </li>
+                            <li class="header__n_d_d_u_l_2 nav-item">
+                                <a class="header__n_d_d_u_l_ancla nav-link " href="./conocenos.html">Conócenos</a>
+                            </li>
+                            <li class="header__n_d_d_u_l_1 nav-item">
+                                <a class="header__n_d_d_u_l_activo nav-link active" href="#">Servicios</a>
+                            </li>
+                            <li class="header__n_d_d_u_l_2 nav-item">
+                                <a class="header__n_d_d_u_l_ancla nav-link" href="./eventos.html">Eventos</a>
+                            </li>
+                            <li class="header__n_d_d_u_l_2 nav-item">
+                                <a class="header__n_d_d_u_l_ancla nav-link" href="./contactanos.html">Contáctanos</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-                <div class="container"> <!--Agregué una @media para modificar el tamaño del título en la vista desktop (MobileFirst)-->
-                    <div class="row d-flex align-items-center justify-content-center">
-                        <div class="fs-1 col-12 rounded tituloServicio mt-3 mb-3 titulos_bs d-flex align-items-center justify-content-center">
+            <div class="header__d container">
+                <div class="header__d_d row">
+                    <div class="header__d_d_titulos col-12 rounded mt-3 mb-3">
                                 <h1>SERVICIOS</h1>
                         </div>
                     </div>
                 </div>
         </header>
-        <main>
+        <main class="servicios__main">
             <div class="container mt-4">
                 <div class="row">
-                    <div class="col-12 fs-5 text-center textoIntro_1">
+                    <div class="col-12 fs-5 text-center">
                         <p>En Dreamer Enterprise® clasificamos los sueños en dos categorías: Recuerdos propios o Temáticas inducidas. 
                         <br>
                         Dependiendo de lo que tengas intención de soñar, podrás configurar tu propia experiencia.</p>
                     </div>
                 </div>
             </div>
-            <div class="container mt-3">
-                <div class="accordion acordionPrueba" id="accordionPanelsStayOpenExample">
-                    <div class="accordion-item border-2 bordeAcordion">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                            RECUERDOS PROPIOS
-                        </button>
-                      </h2>
-                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                        <div class="accordion-body fondoAcordion text-center">
-                          Explora el interior de tu mente, revive momentos felices o interactúa con los recuerdos que tengas de un ser querido. La categoría de recuerdos propios te permite explorar cada rincón de lo que ha vivido tu mente a través de las siguientes temáticas:
+            <div class="servicios__main_d container">
+                <div class="servicios__main_d_d">
+                    <a class="servicios__main_d_d_boton btn" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">RECUERDOS PROPIOS</a>
+                    <button class="servicios__main_d_d_boton btn" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">TEMÁTICAS INDUCIDAS</button>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="collapse multi-collapse" id="multiCollapseExample1">
+                            <div class="card card-body">
+                                Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            </div>
                         </div>
-                      </div>
                     </div>
-                    <div class="accordion-item bg-light bordeAcordion">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                          Categorías de sueños inspirados en Recuerdos Propios:
-                        </button>
-                      </h2>
-                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                        <div class="accordion-body fondoAcordion2A">
-                            <ul>
-                                <li class="servicios__lista">Seres queridos</li>
-                                <li class="servicios__lista">Momentos vividos</li>
-                                <li class="servicios__lista">Anhelos y deseos personales</li>
-                                <li class="servicios__lista">Explorar inseguridades y miedos</li>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="collapse multi-collapse" id="multiCollapseExample2">
+                            <div class="card card-body">
+                                Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            </div>
                         </div>
-                      </div>
                     </div>
                 </div>
-            </div>
-            <div class="container mt-3">
-                <div class="accordion" id="accordionPanelsStayOpenExample">
-                    <div class="accordion-item border-2 bordeAcordion">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                            TEMÁTICAS INDUCIDAS
-                        </button>
-                      </h2>
-                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                        <div class="accordion-body fondoAcordion text-center">
-                          Si te preguntas como se sentiría ser un soldado en la guerra fría, batallar junto a tu héroe favorito o explorar que semi-diós de la mitología podrías ser, la categoría de temática inducida es para ti, donde solo tu imaginación es el límite:
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                            Categorías de sueños inspiradas en Temáticas Inducidas:
-                        </button>
-                      </h2>
-                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                        <div class="accordion-body fondoAcordion2B">
-                            <ul>
-                                <li class="servicios__lista">Mitología e historia</li>
-                                <li class="servicios__lista">Super heroes</li>
-                                <li class="servicios__lista">Series o Sagas del cine y tv</li>
-                                <li class="servicios__lista">Festividades</li>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid fs-5 mt-3 text-center servicios_1">
+            <div class="container-fluid fs-5 mt-3 text-center">
                 <p>Adicionalmente puedes acceder a los diferentes <a class="hipervinculo_1" href="./eventos.html">EVENTOS</a> que Dreamer Enterprise® tiene para ti, 
                 <br> 
                 para que explores las bases del mundo de los sueños.</p>
             </div>
+            <div class="col-sm-12 col-md-6"></div>
+                            <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                <div class="card card-body">
+                                Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                </div>
+                            </div>
+                        </div>
         </main>
         <footer class="footer">
-            <div class="container-fluid bottom-100 border-top border-white pt-3">
-                <div class="row">
-                    <div class="col-12 text-center linkFooter"> <!--Agregué una @media para que los links del footer solo aparezcan en la vista desktop-->
-                        <ul>
-                            <li class="pie__lista"><a class="pie__lista_menu" href="./conocenos.html">Conócenos</a></li>
-                            <li class="pie__lista"><a class="pie__lista_menu" href="#headerServicios">Servicios</a></li>
-                            <li class="pie__lista"><a class="pie__lista_menu" href="./eventos.html">Eventos</a></li>
-                            <li class="pie__lista"><a class="pie__lista_menu" href="./contactanos.html">Contáctanos</a></li>
+            <div class="footer__d container-fluid bottom-100 border-top border-white pt-3">
+                <div class="footer__d_d row">
+                    <div class="footer__d_d_d col-12 text-center"> <!--Agregué una @media para que los links del footer solo aparezcan en la vista desktop-->
+                        <ul class="footer__d_d_d_ul">
+                            <li class="footer__d_d_d_ul_li"><a class="footer__d_d_d_ul_li_a" href="./conocenos.html">Conócenos</a></li>
+                            <li class="footer__d_d_d_ul_li"><a class="footer__d_d_d_ul_li_a" href="#headerServicios">Servicios</a></li>
+                            <li class="footer__d_d_d_ul_li"><a class="footer__d_d_d_ul_li_a" href="./eventos.html">Eventos</a></li>
+                            <li class="footer__d_d_d_ul_li"><a class="footer__d_d_d_ul_li_a" href="./contactanos.html">Contáctanos</a></li>
                         </ul>
                     </div>
                     <div class="col-12 text-center">
@@ -144,7 +108,7 @@
                             <a href="https://www.whatsapp.com/" target="_blank"><img src="./../assets/images/icono whatsapp.png" alt="icono whatsapp" width="20"></a>
                             <a href="https://twitter.com/" target="_blank"><img src="./../assets/images/icono twitter.png" alt="icono twitter" width="20"></a>
                     </div>
-                    <div class="col-12 text-center textoFooter mt-3">
+                    <div class="footer__d_d_texto col-12 text-center mt-3">
                         <p>Todos los derechos reservados®.</p>
                     </div>
                 </div>

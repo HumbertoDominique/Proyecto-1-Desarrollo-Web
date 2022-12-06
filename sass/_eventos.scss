@@ -1,0 +1,30 @@
+.eventos__main{
+    .eventos__main_d1{
+        .eventos__main_d1_d{
+            .eventos__main_d1_d_texto{
+                color: $colorTextoPrincipal; 
+            }
+        }
+    }
+    .eventos__main_d2{
+        .eventos__main_d2_cards{
+            background-color: $colorDestacado;
+            color: $colorTextoSecundario;
+            &:hover{
+                background-color: #FFFFFF;
+                color: $colorTextoPrincipal;
+                border-color: $colorBoton;
+                transition: 1s;
+            }
+            .eventos__main_d2_cards_d{
+                .eventos__main_d2_cards_d_d{
+                    @include justify_align(center, center);
+                    .eventos__main_d2_cards_d_d_img{
+                        background-position: 100%;
+                        background-size: cover;
+                    }
+                }
+            }
+        }
+    }
+}

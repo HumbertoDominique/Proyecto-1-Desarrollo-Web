@@ -1,0 +1,61 @@
+.servicios__main{
+    .servicios__main_d{
+        .servicios__main_d_d{
+            @include justify_align (space-around,center);
+            .servicios__main_d_d_boton{
+                background-color: $colorBoton;
+                color: $colorContraste;
+                font-weight: 400;
+                width: 30rem;
+                height: 3rem;
+                @include justify_align (space-around,center);
+                &:hover{
+                    background-color: $colorHover;
+                }
+            }
+        }
+    }
+    /*.servicios__main_acordion{
+        .servicios__main_acordion_d{
+            .servicios__main_acordion_d_borde{
+                border-color: #455A64;
+                .servicios__main_acordion_d_b_fondo{
+                    background-color: $colorDestacado;
+                    color: $colorTextoPrincipal;
+                    font-size: medium;
+                    font-weight: 400;
+                    transition: 0.5s;
+                    &:hover{
+                        background-color: $colorContraste;
+                    }
+                }
+                .servicios__main_acordion_d_b_d{
+                    .servicios__main_acordion_d_b_d_img1{
+                        background: linear-gradient(to left, rgba(255, 255, 255, 0.25), rgb(255, 255, 255)), url(./../assets/images/img_Ser_rp.jpg);
+                        background-position: 100%;
+                        background-size: cover;
+                        font-weight: 500;
+                        .servicios__main_acordion_d_b_d_i_u{
+                            .servicios__main_acordion_d_b_d_i_u_l{
+                                margin-top: 20px;
+                                color: #212121;
+                            }
+                        }
+                    }
+                    .servicios__main_acordion_d_b_d_img2{
+                        background: linear-gradient(to left, rgba(255, 255, 255, 0.25), rgb(255, 255, 255)), url(./../assets/images/img_ser_ti.jpg);
+                        background-position: right;
+                        background-size: cover;
+                        font-weight: 500;
+                        .servicios__main_acordion_d_b_d_i_u{
+                            .servicios__main_acordion_d_b_d_i_u_l{
+                                margin-top: 20px;
+                                color: #212121;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }*/
+}

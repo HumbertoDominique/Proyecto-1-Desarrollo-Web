@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: $colorFondo;
+    font-family: 'Montserrat', sans-serif;
+    color: $colorTextoPrincipal;
+}
+.hipervinculo_1{
+    color: $colorBoton;
+    text-decoration: none;
+    text-align: justify;
+    &:hover{
+        color: $colorHipervinculoHover;
+        text-decoration: underline;
+    }
+}

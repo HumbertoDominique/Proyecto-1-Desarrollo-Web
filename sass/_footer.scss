@@ -1,0 +1,30 @@
+.footer{
+    background-image: linear-gradient(to top, #212121, #343c49, #355c71, #1e8093, #00a5a5, #00aea8, #00b7a9, #00c0aa, #18b0ae, #399fa9, #518e9d, #607d8b);
+    .footer__d{
+        .footer__d_d{
+            .footer__d_d_d{
+                display: none;
+                .footer__d_d_d_ul{
+                    .footer__d_d_d_ul_li{
+                        display: inline;
+                        margin: 15px;
+                        padding-inline: 15px;
+                        .footer__d_d_d_ul_li_a{
+                            text-decoration: none;
+                            color: $colorContraste;
+                            &:hover{
+                                color: $colorNav;
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+                
+            }
+            .footer__d_d_texto{
+                font-weight: 1rem;
+                color: $colorDestacado;
+            }
+        }
+    }
+}

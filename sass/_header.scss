@@ -1,0 +1,43 @@
+.header{
+    .header__n{
+        background-image: linear-gradient(to bottom, #212121, #343c49, #355c71, #1e8093, #00a5a5, #10b7b0, #24caba, #38dcc3, #66e0da, #93e3e9, #bbe5ee, #dee8ec);
+        .header__n_d{
+            .header__n_d_d{
+                .header__n_d_d_u{
+                    @include justify_align (space-around, center); /*Le pude dar otro uso al mixin justify_align aparte de los valores (center, center)*/
+                    .header__n_d_d_u_l_1{
+                        .header__n_d_d_u_l_activo{
+                            text-decoration: underline;
+                        }
+                    }
+                    .header__n_d_d_u_l_2{
+                        .header__n_d_d_u_l_ancla{
+                            color: $colorNav;
+                            &:hover{
+                                text-decoration: underline;
+                                font-weight: 500;
+                                color: $colorLink;
+                            }    
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .header__d{
+        .header__d_d{
+            .header__d_d_titulos{
+                background:  linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../assets/images/img_fondos_titulos.jpg);
+                background-position: 100% center;
+                background-size: cover;
+                color: $colorTitulos;
+                height: $largoTitulos;
+                @include justify_align(center, center) /*Agrego mixin para simplificar d-flex justify-content y align-items de Bootstrap*/
+            }
+            .header__d_d_index{ /*Agrego @extend para tomar propiedades de clase títulos y agrego operador SASS para modificar el tamaño del index*/
+                @extend .header__d_d_titulos;
+                height: $largoTitulos*2;
+            }
+        }
+    }
+}

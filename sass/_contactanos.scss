@@ -1,0 +1,60 @@
+.contactanos__main{
+    .contactanos__main_d1{
+        .contactanos__main_d1_d{
+            .contactanos__main_d1_d_texto{
+                color: $colorTextoPrincipal;
+                font-size: 1.5rem;
+            }
+        }
+    }
+    .contactanos__main_d2{
+        .contactanos__main_d2_d{
+            @include justify_align(center, center);
+            .contactanos__main_d2_d_formulario{
+                width: 25rem;
+                height: 24rem;
+                background-image: linear-gradient(to right top, #212121, #343c49, #355c71, #1e8093, #00a5a5, #00adae, #00b5b8, #00bdc2, #00a8d5, #008fe9, #006fef, #2840d9);
+                border-radius: 5px 5px 0 0;
+                font-size: 0.8rem;
+                color: $colorTextoPrincipal;
+                .contactanos__main_d2_d_formulario_d{
+                    color: $colorContraste;
+                }
+                .contactanos__main_d2_d_formulario_d2{
+                    @include justify_align (space-around, center);
+                    .contactanos__main_d2_d_formulario_d_boton{
+                        width: 100px;
+                        height: 2rem;
+                        border-radius: 5px;   
+                        border-width: 1px;
+                        background-color: $colorDestacado;
+                        transition: 0.5s;
+                        &:hover{
+                            background-color: #ffffff;
+                        }
+                    }
+                }
+            }
+            .contactanos__main_d2_d_d{
+                width: 25rem;
+                height: 24rem;
+                background-color:#CFD8DC;
+                border-radius: 0 0 5px 5px;
+                background-image: url(./../assets/images/img_formulario.jpg);
+                background-position: 90% start;
+                background-size: cover;
+                @include justify_align (center, center);
+            }
+        }
+    }
+    .contactanos__main_d3{
+        .contactanos__main_d3_d{
+            height: 5rem;
+            .contactanos__main_d3_d_texto{
+                color: $colorTextoPrincipal;
+                font-size: 2rem;
+                @include justify_align (center, center);
+            }
+        }
+    }
+}
