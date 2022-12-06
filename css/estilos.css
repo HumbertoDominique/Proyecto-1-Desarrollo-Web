@@ -39,7 +39,7 @@
   background-position: 100% center;
   background-size: cover;
   color: #ffffff;
-  height: 15vh;
+  height: 12vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,7 +47,7 @@
 
 .header .header__d .header__d_d .header__d_d_index {
   /*Agrego @extend para tomar propiedades de clase títulos y agrego operador SASS para modificar el tamaño del index*/
-  height: 30vh; }
+  height: 24vh; }
 
 .footer {
   background-image: linear-gradient(to top, #212121, #343c49, #355c71, #1e8093, #00a5a5, #00aea8, #00b7a9, #00c0aa, #18b0ae, #399fa9, #518e9d, #607d8b); }
@@ -61,7 +61,7 @@
         text-decoration: none;
         color: #ffffff; }
         .footer .footer__d .footer__d_d .footer__d_d_d .footer__d_d_d_ul .footer__d_d_d_ul_li .footer__d_d_d_ul_li_a:hover {
-          color: #212121;
+          color: #303F9F;
           text-decoration: underline; }
   .footer .footer__d .footer__d_d .footer__d_d_texto {
     font-weight: 1rem;
@@ -80,7 +80,7 @@
   .inicio__main .inicio__main_s .inicio__main_s_d .inicio__main_s_d_d .inicio__main_s_d_d_carrusel .inicio__main_s_d_d_car_img {
     height: 25rem;
     background-position: center;
-    background-size: cover; }
+    object-fit: cover; }
 
 .inicio__main .inicio__main_s2 .inicio__main_s2_d .inicio__main_s2_d_d {
   display: flex;
@@ -138,7 +138,7 @@
   font-size: 1.2rem; }
 
 .conocenos__main .conocenos__main_d4 .conocenos__main_d4_d {
-  height: 55vh;
+  height: 45vh;
   width: 80vw; }
   .conocenos__main .conocenos__main_d4 .conocenos__main_d4_d .conocenos__main_d4_d_texto {
     background-color: #CFD8DC;
@@ -153,65 +153,26 @@
     background-color: #ffffff;
     border-radius: 0 0 5px 5px; }
 
-.servicios__main {
-  /*.servicios__main_acordion{
-        .servicios__main_acordion_d{
-            .servicios__main_acordion_d_borde{
-                border-color: #455A64;
-                .servicios__main_acordion_d_b_fondo{
-                    background-color: $colorDestacado;
-                    color: $colorTextoPrincipal;
-                    font-size: medium;
-                    font-weight: 400;
-                    transition: 0.5s;
-                    &:hover{
-                        background-color: $colorContraste;
-                    }
-                }
-                .servicios__main_acordion_d_b_d{
-                    .servicios__main_acordion_d_b_d_img1{
-                        background: linear-gradient(to left, rgba(255, 255, 255, 0.25), rgb(255, 255, 255)), url(./../assets/images/img_Ser_rp.jpg);
-                        background-position: 100%;
-                        background-size: cover;
-                        font-weight: 500;
-                        .servicios__main_acordion_d_b_d_i_u{
-                            .servicios__main_acordion_d_b_d_i_u_l{
-                                margin-top: 20px;
-                                color: #212121;
-                            }
-                        }
-                    }
-                    .servicios__main_acordion_d_b_d_img2{
-                        background: linear-gradient(to left, rgba(255, 255, 255, 0.25), rgb(255, 255, 255)), url(./../assets/images/img_ser_ti.jpg);
-                        background-position: right;
-                        background-size: cover;
-                        font-weight: 500;
-                        .servicios__main_acordion_d_b_d_i_u{
-                            .servicios__main_acordion_d_b_d_i_u_l{
-                                margin-top: 20px;
-                                color: #212121;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }*/ }
-  .servicios__main .servicios__main_d .servicios__main_d_d {
-    display: flex;
-    justify-content: space-around;
-    align-items: center; }
-    .servicios__main .servicios__main_d .servicios__main_d_d .servicios__main_d_d_boton {
-      background-color: #027ab2;
-      color: #ffffff;
-      font-weight: 400;
-      width: 30rem;
-      height: 3rem;
-      display: flex;
-      justify-content: space-around;
-      align-items: center; }
-      .servicios__main .servicios__main_d .servicios__main_d_d .servicios__main_d_d_boton:hover {
-        background-color: #03A9F4; }
+.servicios__main .servicios__main_d .servicios__main_d_d .servicios__main_d_d_boton {
+  background-color: #027ab2;
+  color: #ffffff;
+  font-weight: 400; }
+  .servicios__main .servicios__main_d .servicios__main_d_d .servicios__main_d_d_boton:hover {
+    background-color: #03A9F4; }
+
+.servicios__main .servicios__main_d .servicios__main_d_d .servicios__main_d_d_b_d .servicios__main_d_d_b_d_d .servicios__main_d_d_b_d_d_card, .servicios__main .servicios__main_d .servicios__main_d_d .servicios__main_d_d_b_d .servicios__main_d_d_b_d_d .servicios__main_d_d_b_d_d_card--2 {
+  background-color: #CFD8DC;
+  border-color: #455A64; }
+  .servicios__main .servicios__main_d .servicios__main_d_d .servicios__main_d_d_b_d .servicios__main_d_d_b_d_d .servicios__main_d_d_b_d_d_card .servicios__main_d_d_b_d_d_c_lista, .servicios__main .servicios__main_d .servicios__main_d_d .servicios__main_d_d_b_d .servicios__main_d_d_b_d_d .servicios__main_d_d_b_d_d_card--2 .servicios__main_d_d_b_d_d_c_lista, .servicios__main .servicios__main_d .servicios__main_d_d .servicios__main_d_d_b_d .servicios__main_d_d_b_d_d .servicios__main_d_d_b_d_d_card--2 .servicios__main_d_d_b_d_d_c_lista--2 {
+    background-color: #ffffff;
+    color: #455A64; }
+    .servicios__main .servicios__main_d .servicios__main_d_d .servicios__main_d_d_b_d .servicios__main_d_d_b_d_d .servicios__main_d_d_b_d_d_card .servicios__main_d_d_b_d_d_c_lista .servicios__main_d_d_b_d_d_c_lista_ul .servicios__main_d_d_b_d_d_c_lista_ul_li, .servicios__main .servicios__main_d .servicios__main_d_d .servicios__main_d_d_b_d .servicios__main_d_d_b_d_d .servicios__main_d_d_b_d_d_card--2 .servicios__main_d_d_b_d_d_c_lista .servicios__main_d_d_b_d_d_c_lista_ul .servicios__main_d_d_b_d_d_c_lista_ul_li, .servicios__main .servicios__main_d .servicios__main_d_d .servicios__main_d_d_b_d .servicios__main_d_d_b_d_d .servicios__main_d_d_b_d_d_card--2 .servicios__main_d_d_b_d_d_c_lista--2 .servicios__main_d_d_b_d_d_c_lista_ul .servicios__main_d_d_b_d_d_c_lista_ul_li {
+      margin-top: 10px; }
+
+.servicios__main .servicios__main_d .servicios__main_d_d .servicios__main_d_d_b_d .servicios__main_d_d_b_d_d .servicios__main_d_d_b_d_d_card--2 {
+  background-color: #ffffff; }
+  .servicios__main .servicios__main_d .servicios__main_d_d .servicios__main_d_d_b_d .servicios__main_d_d_b_d_d .servicios__main_d_d_b_d_d_card--2 .servicios__main_d_d_b_d_d_c_lista--2 {
+    background-color: #CFD8DC; }
 
 .eventos__main .eventos__main_d1 .eventos__main_d1_d .eventos__main_d1_d_texto {
   color: #212121; }
@@ -230,7 +191,7 @@
     align-items: center; }
     .eventos__main .eventos__main_d2 .eventos__main_d2_cards .eventos__main_d2_cards_d .eventos__main_d2_cards_d_d .eventos__main_d2_cards_d_d_img {
       background-position: 100%;
-      background-size: cover; }
+      object-fit: cover; }
 
 .contactanos__main .contactanos__main_d1 .contactanos__main_d1_d .contactanos__main_d1_d_texto {
   color: #212121;
@@ -267,9 +228,9 @@
     height: 24rem;
     background-color: #CFD8DC;
     border-radius: 0 0 5px 5px;
-    background-image: url(./../assets/images/img_formulario.jpg);
-    background-position: 90% start;
-    background-size: cover;
+    background: url(./../assets/images/img_formulario_.png);
+    object-fit: contain;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center; }
@@ -302,8 +263,8 @@
     color: #ffffff; }
   .header .header__d .header__d_d .header__d_d_titulos, .header .header__d .header__d_d .header__d_d_index {
     /*Agrego Operador SASS para definir el alto de la imagen en los títulos de las páginas y el index*/
-    height: 45vh; }
+    height: 36vh; }
   .header .header__d .header__d_d .header__d_d_index {
-    height: 75vh; }
+    height: 60vh; }
   .eventos__main .eventos__main_d2 .eventos__main_d2_cards .eventos__main_d2_cards_d {
     height: 12rem; } }

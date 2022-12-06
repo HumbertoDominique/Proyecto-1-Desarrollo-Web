@@ -21,7 +21,7 @@
                     @include justify_align(center, center);
                     .eventos__main_d2_cards_d_d_img{
                         background-position: 100%;
-                        background-size: cover;
+                        object-fit: cover;
                     }
                 }
             }
