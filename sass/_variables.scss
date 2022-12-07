@@ -1,4 +1,4 @@
-$largoTitulos: 12vh;
+$largoTitulos: 12vh; /*Utilicé esta variable para aplicar el operador SASS en @media para definir el tamaño de los fondos de los títulos*/
 $colorTitulos: #ffffff;
 $colorDestacado: #CFD8DC;
 $colorTextoPrincipal: #212121;
@@ -12,3 +12,11 @@ $colorLink: #303F9F;
 $colorNav: #212121;
 $colorNav2: #ffffff;
 $colorHover: #03A9F4;
+
+$medidasvh:( /*Creación de mapa, lo ocupé para definir el tamaño de los fondos de los títulos*/
+    vh1: 10vh,
+    vh2: 20vh,
+    vh3: 30vh,
+    vh4: 40vh,
+    vh5: 50vh,
+);

@@ -36,13 +36,11 @@
                 }
             }
             .contactanos__main_d2_d_d{
+                border-radius: 0 0 5px 5px;
                 width: 25rem;
                 height: 24rem;
-                background-color:#CFD8DC;
-                border-radius: 0 0 5px 5px;
-                background: url(./../assets/images/img_formulario_.png);
-                object-fit: contain;
-                background-position: center;
+                background: position 100% bottom;
+                object-fit: cover;
                 @include justify_align (center, center);
             }
         }

@@ -15,11 +15,11 @@
                     width: 100%;
                     .inicio__main_s_d_d_car_texto{
                         color: $colorTitulos;
-                        background-color: hwb(0 0% 100% / 0.200);
+                        background-color: hwb(0 0% 100% / 0.500);
                     }
                     .inicio__main_s_d_d_car_img{
                         height: 25rem;
-                        background-position: center;
+                        background-position: 100% bottom;
                         object-fit: cover;
                     }
                 }

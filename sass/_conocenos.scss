@@ -1,22 +1,28 @@
 .conocenos__main{
     .conocenos__main_d1{
-        @include justify_align(center, center);
         .conocenos__main_d1_d{
+            @include justify_align (center, center);
             .conocenos__main_d1_d_bloque1{
-                text-align: justify;
+                @include justify_align (center, center);
+                width: 25rem;
+                height: 22rem;
+                text-align: center;
                 background-color: $colorDestacado;
                 color: $colorTextoPrincipal;
                 font-size: 1rem;
+                border-radius: 5px 5px 0 0;
             }
             .conocenos__main_d1_d_d{
+                width: 25rem;
+                height: 22rem;
+                @include justify_align (center, center);
                 .conocenos__main_d1_d_d_img{
-                    background: url(./../assets/images/img_Dreambot.png);
-                    width: 100%;
-                    height: 100%;
-                    background-position: center;
-                    background-size: cover;
-                    border-radius: 0 5px 5px 0;
-                    margin-right: 0;
+                    background: position 100% center;
+                    object-fit: cover;
+                    border-radius: 0 0 5px 5px;
+                    width: 25rem;
+                    height: 24rem;
+                    border-radius: 0 0 5px 5px;
                 }
             }
         }
@@ -36,19 +42,21 @@
     }
     .conocenos__main_d4{
         .conocenos__main_d4_d{
-            height: 45vh;
             width: 80vw;
+            @include justify_align(center, center);
             .conocenos__main_d4_d_texto{
                 background-color: $colorDestacado;
                 text-align: justify;
                 border-radius: 5px 5px 0 0;
                 @include justify_align(center, center);
                 color: $colorTextoPrincipal;
+                height: map-get($medidasvh, vh3)+8; /*Aplico mapa y operador SASS*/
             }
             .conocenos__main_d4_d_mapa{
                 border-color: $colorDestacado;
                 background-color: $colorContraste;
                 border-radius: 0 0 5px 5px;
+                height: map-get($medidasvh, vh3)+8;
             }
         }
     }

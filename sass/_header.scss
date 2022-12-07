@@ -1,6 +1,6 @@
 .header{
     .header__n{
-        background-image: linear-gradient(to bottom, #212121, #343c49, #355c71, #1e8093, #00a5a5, #10b7b0, #24caba, #38dcc3, #66e0da, #93e3e9, #bbe5ee, #dee8ec);
+        background-image: linear-gradient(to bottom, #1b0041, #002761, #004473, #005f79, #007979, #008d8b, #00a19c, #00b5ae, #63c6d9, #a8d6f1, #dde8fa, #ffffff);
         .header__n_d{
             .header__n_d_d{
                 .header__n_d_d_u{
@@ -8,6 +8,7 @@
                     .header__n_d_d_u_l_1{
                         .header__n_d_d_u_l_activo{
                             text-decoration: underline;
+                            color: $colorNav;
                         }
                     }
                     .header__n_d_d_u_l_2{
@@ -27,16 +28,17 @@
     .header__d{
         .header__d_d{
             .header__d_d_titulos{
-                background:  linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../assets/images/img_fondos_titulos.jpg);
-                background-position: 100% center;
+                background:  linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./../assets/images/img_fondo_.png);
+                background-position: 100% top;
                 background-size: cover;
                 color: $colorTitulos;
-                height: $largoTitulos;
+                height: map-get($medidasvh, vh1);
                 @include justify_align(center, center) /*Agrego mixin para simplificar d-flex justify-content y align-items de Bootstrap*/
             }
             .header__d_d_index{ /*Agrego @extend para tomar propiedades de clase títulos y agrego operador SASS para modificar el tamaño del index*/
                 @extend .header__d_d_titulos;
-                height: $largoTitulos*2;
+                height: map-get($medidasvh, vh3);
+                background-position: 100% center;
             }
         }
     }

@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*Utilicé esta variable para aplicar el operador SASS en @media para definir el tamaño de los fondos de los títulos*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;1,500&display=swap");
 * {
   margin: 0;
@@ -19,14 +20,15 @@
     text-decoration: underline; }
 
 .header .header__n {
-  background-image: linear-gradient(to bottom, #212121, #343c49, #355c71, #1e8093, #00a5a5, #10b7b0, #24caba, #38dcc3, #66e0da, #93e3e9, #bbe5ee, #dee8ec); }
+  background-image: linear-gradient(to bottom, #1b0041, #002761, #004473, #005f79, #007979, #008d8b, #00a19c, #00b5ae, #63c6d9, #a8d6f1, #dde8fa, #ffffff); }
   .header .header__n .header__n_d .header__n_d_d .header__n_d_d_u {
     display: flex;
     justify-content: space-around;
     align-items: center;
     /*Le pude dar otro uso al mixin justify_align aparte de los valores (center, center)*/ }
     .header .header__n .header__n_d .header__n_d_d .header__n_d_d_u .header__n_d_d_u_l_1 .header__n_d_d_u_l_activo {
-      text-decoration: underline; }
+      text-decoration: underline;
+      color: #212121; }
     .header .header__n .header__n_d .header__n_d_d .header__n_d_d_u .header__n_d_d_u_l_2 .header__n_d_d_u_l_ancla {
       color: #212121; }
       .header .header__n .header__n_d .header__n_d_d .header__n_d_d_u .header__n_d_d_u_l_2 .header__n_d_d_u_l_ancla:hover {
@@ -35,11 +37,11 @@
         color: #303F9F; }
 
 .header .header__d .header__d_d .header__d_d_titulos, .header .header__d .header__d_d .header__d_d_index {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../assets/images/img_fondos_titulos.jpg);
-  background-position: 100% center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./../assets/images/img_fondo_.png);
+  background-position: 100% top;
   background-size: cover;
   color: #ffffff;
-  height: 12vh;
+  height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,10 +49,11 @@
 
 .header .header__d .header__d_d .header__d_d_index {
   /*Agrego @extend para tomar propiedades de clase títulos y agrego operador SASS para modificar el tamaño del index*/
-  height: 24vh; }
+  height: 30vh;
+  background-position: 100% center; }
 
 .footer {
-  background-image: linear-gradient(to top, #212121, #343c49, #355c71, #1e8093, #00a5a5, #00aea8, #00b7a9, #00c0aa, #18b0ae, #399fa9, #518e9d, #607d8b); }
+  background-image: linear-gradient(to top, #1b0041, #002761, #004473, #005f79, #007979, #0b887c, #28977b, #45a677, #62b08a, #7db99d, #98c2af, #b2cbc0); }
   .footer .footer__d .footer__d_d .footer__d_d_d {
     display: none; }
     .footer .footer__d .footer__d_d .footer__d_d_d .footer__d_d_d_ul .footer__d_d_d_ul_li {
@@ -76,10 +79,10 @@
   width: 100%; }
   .inicio__main .inicio__main_s .inicio__main_s_d .inicio__main_s_d_d .inicio__main_s_d_d_carrusel .inicio__main_s_d_d_car_texto {
     color: #ffffff;
-    background-color: hwb(0 0% 100%/0.2); }
+    background-color: hwb(0 0% 100%/0.5); }
   .inicio__main .inicio__main_s .inicio__main_s_d .inicio__main_s_d_d .inicio__main_s_d_d_carrusel .inicio__main_s_d_d_car_img {
     height: 25rem;
-    background-position: center;
+    background-position: 100% bottom;
     object-fit: cover; }
 
 .inicio__main .inicio__main_s2 .inicio__main_s2_d .inicio__main_s2_d_d {
@@ -105,23 +108,34 @@
       color: #FFFFFF;
       font-size: 1rem; }
 
-.conocenos__main .conocenos__main_d1 {
+.conocenos__main .conocenos__main_d1 .conocenos__main_d1_d {
   display: flex;
   justify-content: center;
   align-items: center; }
   .conocenos__main .conocenos__main_d1 .conocenos__main_d1_d .conocenos__main_d1_d_bloque1 {
-    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 22rem;
+    text-align: center;
     background-color: #CFD8DC;
     color: #212121;
-    font-size: 1rem; }
-  .conocenos__main .conocenos__main_d1 .conocenos__main_d1_d .conocenos__main_d1_d_d .conocenos__main_d1_d_d_img {
-    background: url(./../assets/images/img_Dreambot.png);
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    border-radius: 0 5px 5px 0;
-    margin-right: 0; }
+    font-size: 1rem;
+    border-radius: 5px 5px 0 0; }
+  .conocenos__main .conocenos__main_d1 .conocenos__main_d1_d .conocenos__main_d1_d_d {
+    width: 25rem;
+    height: 22rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .conocenos__main .conocenos__main_d1 .conocenos__main_d1_d .conocenos__main_d1_d_d .conocenos__main_d1_d_d_img {
+      background: position 100% center;
+      object-fit: cover;
+      border-radius: 0 0 5px 5px;
+      width: 25rem;
+      height: 24rem;
+      border-radius: 0 0 5px 5px; }
 
 .conocenos__main .conocenos__main_d2 {
   background-color: #027ab2;
@@ -138,8 +152,10 @@
   font-size: 1.2rem; }
 
 .conocenos__main .conocenos__main_d4 .conocenos__main_d4_d {
-  height: 45vh;
-  width: 80vw; }
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
   .conocenos__main .conocenos__main_d4 .conocenos__main_d4_d .conocenos__main_d4_d_texto {
     background-color: #CFD8DC;
     text-align: justify;
@@ -147,11 +163,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #212121; }
+    color: #212121;
+    height: 38vh;
+    /*Aplico mapa y operador SASS*/ }
   .conocenos__main .conocenos__main_d4 .conocenos__main_d4_d .conocenos__main_d4_d_mapa {
     border-color: #CFD8DC;
     background-color: #ffffff;
-    border-radius: 0 0 5px 5px; }
+    border-radius: 0 0 5px 5px;
+    height: 38vh; }
 
 .servicios__main .servicios__main_d .servicios__main_d_d .servicios__main_d_d_boton {
   background-color: #027ab2;
@@ -224,13 +243,11 @@
         .contactanos__main .contactanos__main_d2 .contactanos__main_d2_d .contactanos__main_d2_d_formulario .contactanos__main_d2_d_formulario_d2 .contactanos__main_d2_d_formulario_d_boton:hover {
           background-color: #ffffff; }
   .contactanos__main .contactanos__main_d2 .contactanos__main_d2_d .contactanos__main_d2_d_d {
+    border-radius: 0 0 5px 5px;
     width: 25rem;
     height: 24rem;
-    background-color: #CFD8DC;
-    border-radius: 0 0 5px 5px;
-    background: url(./../assets/images/img_formulario_.png);
-    object-fit: contain;
-    background-position: center;
+    background: position 100% bottom;
+    object-fit: cover;
     display: flex;
     justify-content: center;
     align-items: center; }
@@ -260,6 +277,8 @@
   .footer .footer__d .footer__d_d .footer__d_d_d {
     display: inline-block; }
   .header .header__n .header__n_d .header__n_d_d .header__n_d_d_u .header__n_d_d_u_l_2 .header__n_d_d_u_l_ancla {
+    color: #ffffff; }
+  .header .header__n .header__n_d .header__n_d_d .header__n_d_d_u .header__n_d_d_u_l_1 .header__n_d_d_u_l_activo {
     color: #ffffff; }
   .header .header__d .header__d_d .header__d_d_titulos, .header .header__d .header__d_d .header__d_d_index {
     /*Agrego Operador SASS para definir el alto de la imagen en los títulos de las páginas y el index*/
