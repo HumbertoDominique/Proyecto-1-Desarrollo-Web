@@ -51,6 +51,8 @@
   /*Agrego @extend para tomar propiedades de clase títulos y agrego operador SASS para modificar el tamaño del index*/
   height: 30vh;
   background-position: 100% center; }
+  .header .header__d .header__d_d .header__d_d_index .logoPrincipal {
+    width: 20rem; }
 
 .footer {
   background-image: linear-gradient(to top, #1b0041, #002761, #004473, #005f79, #007979, #0b887c, #28977b, #45a677, #62b08a, #7db99d, #98c2af, #b2cbc0); }
@@ -285,5 +287,7 @@
     height: 36vh; }
   .header .header__d .header__d_d .header__d_d_index {
     height: 60vh; }
+    .header .header__d .header__d_d .header__d_d_index .logoPrincipal {
+      width: 30rem; }
   .eventos__main .eventos__main_d2 .eventos__main_d2_cards .eventos__main_d2_cards_d {
     height: 12rem; } }

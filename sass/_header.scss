@@ -39,6 +39,9 @@
                 @extend .header__d_d_titulos;
                 height: map-get($medidasvh, vh3);
                 background-position: 100% center;
+                .logoPrincipal{
+                    width: 20rem;
+                }
             }
         }
     }

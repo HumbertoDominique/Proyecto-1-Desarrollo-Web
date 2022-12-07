@@ -62,6 +62,9 @@
                 }
                 .header__d_d_index{
                     height: $largoTitulos*5;
+                    .logoPrincipal{
+                        width: 30rem;
+                    }
                 }
             }
         }
