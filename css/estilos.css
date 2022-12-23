@@ -24,8 +24,7 @@
   .header .header__n .header__n_d .header__n_d_d .header__n_d_d_u {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    /*Le pude dar otro uso al mixin justify_align aparte de los valores (center, center)*/ }
+    align-items: center; }
     .header .header__n .header__n_d .header__n_d_d .header__n_d_d_u .header__n_d_d_u_l_1 .header__n_d_d_u_l_activo {
       text-decoration: underline;
       color: #ffffff; }
@@ -44,11 +43,9 @@
   height: 10vh;
   display: flex;
   justify-content: center;
-  align-items: center;
-  /*Agrego mixin para simplificar d-flex justify-content y align-items de Bootstrap*/ }
+  align-items: center; }
 
 .header .header__d .header__d_d .header__d_d_index {
-  /*Agrego @extend para tomar propiedades de clase títulos y agrego operador SASS para modificar el tamaño del index*/
   height: 30vh;
   background-position: 100% center; }
   .header .header__d .header__d_d .header__d_d_index .logoPrincipal {

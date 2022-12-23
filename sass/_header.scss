@@ -4,7 +4,7 @@
         .header__n_d{
             .header__n_d_d{
                 .header__n_d_d_u{
-                    @include justify_align (space-around, center); /*Le pude dar otro uso al mixin justify_align aparte de los valores (center, center)*/
+                    @include justify_align (space-around, center);
                     .header__n_d_d_u_l_1{
                         .header__n_d_d_u_l_activo{
                             text-decoration: underline;
@@ -33,9 +33,9 @@
                 background-size: cover;
                 color: $colorTitulos;
                 height: map-get($medidasvh, vh1);
-                @include justify_align(center, center) /*Agrego mixin para simplificar d-flex justify-content y align-items de Bootstrap*/
+                @include justify_align(center, center)
             }
-            .header__d_d_index{ /*Agrego @extend para tomar propiedades de clase títulos y agrego operador SASS para modificar el tamaño del index*/
+            .header__d_d_index{
                 @extend .header__d_d_titulos;
                 height: map-get($medidasvh, vh3);
                 background-position: 100% center;
