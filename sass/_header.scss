@@ -1,6 +1,6 @@
 .header{
     .header__n{
-        background-image: linear-gradient(to bottom, #1b0041, #002761, #004473, #005f79, #007979, #008d8b, #00a19c, #00b5ae, #63c6d9, #a8d6f1, #dde8fa, #ffffff);
+        background-image: linear-gradient(to bottom, #1b0041, #0b3473, #00649c, #2395bd, #63c6d9);
         .header__n_d{
             .header__n_d_d{
                 .header__n_d_d_u{
@@ -8,12 +8,12 @@
                     .header__n_d_d_u_l_1{
                         .header__n_d_d_u_l_activo{
                             text-decoration: underline;
-                            color: $colorNav;
+                            color: $colorNav2;
                         }
                     }
                     .header__n_d_d_u_l_2{
                         .header__n_d_d_u_l_ancla{
-                            color: $colorNav;
+                            color: $colorNav2;
                             &:hover{
                                 text-decoration: underline;
                                 font-weight: 500;
@@ -41,6 +41,10 @@
                 background-position: 100% center;
                 .logoPrincipal{
                     width: 20rem;
+                }
+                .prueba{
+                    @include justify_align(center, center);
+                    font-size: 1rem;
                 }
             }
         }

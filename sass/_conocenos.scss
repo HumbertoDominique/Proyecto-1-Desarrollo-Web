@@ -4,28 +4,22 @@
             @include justify_align (center, center);
             .conocenos__main_d1_d_bloque1{
                 @include justify_align (center, center);
-                width: 25rem;
-                height: 22rem;
-                text-align: center;
+                height: 25rem;
+                width: 22rem;
+                text-align: justify;
                 background-color: $colorDestacado;
                 color: $colorTextoPrincipal;
                 font-size: 1rem;
                 border-radius: 5px 5px 0 0;
             }
             .conocenos__main_d1_d_d{
-                width: 25rem;
                 height: 22rem;
+                width: 22rem;
                 @include justify_align (center, center);
+                border-radius: 0 0 5px 5px;
                 .conocenos__main_d1_d_d_img{
                     background: position 100% center;
                     object-fit: cover;
-                    border-radius: 0 0 5px 5px;
-                    width: 25rem;
-                    height: 24rem;
-                    border-radius: 0 0 5px 5px;
-                    .imagen__conocenos{
-                        width: 25rem;
-                    }
                 }
             }
         }

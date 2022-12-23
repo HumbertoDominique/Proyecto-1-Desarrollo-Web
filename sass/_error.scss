@@ -1,0 +1,33 @@
+.body__error{
+    background-image: linear-gradient(to bottom, #ffffff, #d8edff, #8ce2fd, #2bd8d3, #2fc687);
+    font-family: 'Montserrat', sans-serif;
+    color: $colorTextoPrincipal;
+    height: 100vh;
+    .error__main{
+        height: 100vh;
+        @include justify_align(center, center);
+        .error__main_d{
+            @include justify_align(center, center);
+            .error__main_d_img{
+                @include justify_align(center, center);
+                height: auto;
+                width: 300px;
+            }
+            .error__main_d_s{
+                text-align: center;
+                .error__main_d_s_d{
+                    .error__main_d_s_d_boton{
+                        background-color: $colorBoton;
+                        color: #FFFFFF;
+                        font-size: 1rem;
+                        text-align: center;
+                        &:hover{
+                            background-color: #FFFFFF;
+                            color: $colorBoton;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

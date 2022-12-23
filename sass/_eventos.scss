@@ -17,11 +17,14 @@
                 transition: 1s;
             }
             .eventos__main_d2_cards_d{
+                overflow: hidden;
                 .eventos__main_d2_cards_d_d{
                     @include justify_align(center, center);
                     .eventos__main_d2_cards_d_d_img{
                         background-position: 100%;
                         object-fit: cover;
+                        width: 100%;
+                        height: 100%;
                     }
                 }
             }
